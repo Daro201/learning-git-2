@@ -1,0 +1,17 @@
+
+
+Example:
+autoprefixer-cli -o main.prefixed.css main.css
+
+Used code:
+node_modules/.bin/autoprefixer-cli -o style.prefixed.css style.css
+
+Example:
+Usage: cli [options] <files/urls ...>
+
+Used code:
+node_modules/.bin/nu-html-checker *.html
+
+
+"build:clean": "rimraf /css",
+"watch:browsersync": "npm-run browser-sync start --server --files css/*.css *html "
